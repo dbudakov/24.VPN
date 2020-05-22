@@ -44,3 +44,5 @@ sudo ip route del default dev tun0 scope link
 ```
 sudo pkill openconnect
 ```
+
+Дополнительная информация по занятию [здесь](https://github.com/dbudakov/24.VPN/blob/master/draft_general)  
