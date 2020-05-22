@@ -10,10 +10,16 @@ VPN
 3.\* Самостоятельно изучить, поднять ocserv и подключиться с хоста к виртуалке   
 
 ## Решение  
-[logo1]
-[logo2]
+[tap_tcp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tap_tcp.png
+[tap_udp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tap_udp.png
+[tun_tcp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tun_tcp.png
+[tun_udp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tun_udp.png
+
 1.Задание сравнение скорости работы tun и tap. 
-В режиме tap мы получаем следующий вывод на клиенте по протоколу tcp и далее вывод по udp:
-![logo1]
-Вывод теста iperf  через tun туннуль:
-![logo2]
+Cравнение режимов tap и tun для TCP
+![tap_tcp]
+![tun_tcp]
+Cравнение режимов tap и tun для UDP
+![tap_udp]
+![tun_udp]
+
