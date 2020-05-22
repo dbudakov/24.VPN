@@ -18,7 +18,7 @@ VPN
 [udp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/udp.png
 
 1.Задание сравнение скорости работы tun и tap. 
-Cравнение режимов tap и tun для TCP
+Cравнение режимов tap и tun для TCP, слева tap, справа tun  
 ![tcp]
-Cравнение режимов tap и tun для UDP
+Cравнение режимов tap и tun для UDP, слева tap, справа tun  
 ![udp]
