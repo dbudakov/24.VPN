@@ -1,7 +1,5 @@
 - name: deploy
-  hosts: 
-    - server
-    - client
+  hosts: server
   gather_facts: false
   become: true
   roles:
