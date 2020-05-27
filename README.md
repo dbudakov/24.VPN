@@ -15,13 +15,18 @@ VPN
 [tun_tcp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tun_tcp.png
 [tun_udp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tun_udp.png
 [tcp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/tcp.png
+[tcp1]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_tcp.png
 [udp]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/udp.png
+[udp1]: https://github.com/dbudakov/24.VPN/blob/master/images/homework/v1/iperf_udp.png
+
 
 ### 1.Задание сравнение скорости работы tun и tap. 
 Cравнение режимов tap и tun для TCP, слева tap, справа tun   
 ![tcp]
+![tcp1]
 Cравнение режимов tap и tun для UDP, слева tap, справа tun    
 ![udp]
+![udp1]
 
 ### 2. Настройка RAS через openvpn
 После деплоя стенда подключение производится из каталога `./roles/templates/pki`, потому-что `ansible`, складывает туда ключи и сертификаты для подключения, подключение производится по команде:  
