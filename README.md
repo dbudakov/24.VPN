@@ -50,5 +50,15 @@ sudo ip route del default dev tun0 scope link
 ```
 sudo pkill openconnect
 ```
+Дополнительно:
+http://openmaniak.com/iperf.php  
+```
+iperf3 - Retr:
+  It's the number of TCP segments retransmitted. This can happen if TCP segments are lost in the network due to congestion or corruption.
+iperf3 - Jitter:
+  - Jitter (latency variation): can be measured with an Iperf UDP test.
 
+```
 **_Дополнительная информация по занятию [здесь](https://github.com/dbudakov/24.VPN/blob/master/draft_general)_** 
+
+
