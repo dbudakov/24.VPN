@@ -61,4 +61,7 @@ iperf3 - Jitter:
 ```
 **_Дополнительная информация по занятию [здесь](https://github.com/dbudakov/24.VPN/blob/master/draft_general)_** 
 
+### Дополнительно:
+Различие `tun` и `tap` режимов [здесь](https://en.wikipedia.org/wiki/TUN/TAP) и [здесь](https://community.openvpn.net/openvpn/wiki/BridgingAndRouting)  
+
 
